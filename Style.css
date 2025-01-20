@@ -1,0 +1,24 @@
+/* Style for the container */
+.container {
+    display: flex;             /* Using flexbox to arrange the boxes */
+    justify-content: space-around; /* Even space between the boxes */
+    align-items: center;       /* Vertically center the boxes */
+    height: 100vh;             /* Set the container height to the full viewport height */
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  /* Style for each box */
+  .box1, .box2, .box3, .box4, .box5 {
+    width: 50px;               /* Set the width for each box */
+    height: 50px;              /* Set the height for each box */
+    background-color: #3498db; /* Blue background color for each box */
+    border-radius: 10px;       /* Rounded corners */
+  }
+  
+  /* Optional: Different colors for each box for variety */
+  .box1 { background-color: #e74c3c; }  /* Red */
+  .box2 { background-color: #2ecc71; }  /* Green */
+  .box3 { background-color: #f39c12; }  /* Yellow */
+  .box4 { background-color: #9b59b6; }  /* Purple */
+  .box5 { background-color: #1abc9c; }  /* Teal */
+  
